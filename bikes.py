@@ -32,6 +32,8 @@ def draw_detections(img, rects, thickness = 1):
         cv2.rectangle(img, (int(x), int(y)), (x+w, y+h), (255, 0, 0), thickness)
 
 
+# if(x = 1 ) cars = 1; 
+
 
 def compareObjects(cars, carspresent, cars_count, CENTROID_DIFFERENCE_THRESH, THRESHOLD_OF_HISTOGRAM):
 
